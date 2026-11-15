@@ -1,0 +1,6 @@
+{
+  "name": "Scholaris — School Marks & Report Cards",
+  "description": "Bilingual school marks management and PDF report card platform for head teachers and subject teachers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

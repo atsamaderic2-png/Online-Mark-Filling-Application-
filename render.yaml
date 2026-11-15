@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: gbhs-douala
+    runtime: node
+    plan: free
+    autoDeploy: true
+    buildCommand: npm install --include=dev && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NPM_CONFIG_PRODUCTION
+        value: "false"
+      - key: NODE_VERSION
+        value: 22.23.0
+      - key: HOST
+        value: 0.0.0.0
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: DATA_DIR
+        value: ./data
+      # If you attach a Render Persistent Disk (e.g. mounted at /var/data),
+      # change DATA_DIR above to /var/data so SQLite data persists across redeploys.

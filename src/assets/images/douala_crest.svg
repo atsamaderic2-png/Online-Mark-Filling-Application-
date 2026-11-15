@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="GBHS Douala School Crest">
+  <!-- Clean White Medallion Surface -->
+  <circle cx="256" cy="256" r="248" fill="#ffffff" />
+  <circle cx="256" cy="256" r="240" fill="none" stroke="#dce4ef" stroke-width="2.5" />
+  <circle cx="256" cy="256" r="231" fill="none" stroke="#b88c42" stroke-width="1.35" stroke-opacity="0.6" />
+
+  <!-- Open Bilingual Book Emblem (Upper Center) -->
+  <g transform="translate(0, -14)">
+    <!-- Outer Hardcover Binding Cradle -->
+    <path
+      d="M 102,216 C 164,202 220,210 256,232 C 292,210 348,202 410,216 L 402,226 C 344,214 292,222 256,242 C 220,222 168,214 110,226 Z"
+      fill="#102547"
+    />
+
+    <!-- Back Fan Pages (Depth) -->
+    <path
+      d="M 256,144 C 222,114 166,108 108,124 L 104,212 C 162,198 220,206 256,226 C 292,206 350,198 408,212 L 404,124 C 346,108 290,114 256,144 Z"
+      fill="#edf2f8"
+      stroke="#102547"
+      stroke-width="3"
+      stroke-linejoin="round"
+    />
+
+    <!-- Front Open Left Page -->
+    <path
+      d="M 256,144 C 226,110 172,98 118,112 L 112,202 C 168,190 222,198 256,224 Z"
+      fill="#ffffff"
+      stroke="#102547"
+      stroke-width="4"
+      stroke-linejoin="round"
+    />
+
+    <!-- Front Open Right Page -->
+    <path
+      d="M 256,144 C 286,110 340,98 394,112 L 400,202 C 344,190 290,198 256,224 Z"
+      fill="#fdfdfb"
+      stroke="#102547"
+      stroke-width="4"
+      stroke-linejoin="round"
+    />
+
+    <!-- Spine Shadow & Natural Brass Bookmark Ribbon -->
+    <line x1="256" y1="144" x2="256" y2="224" stroke="#102547" stroke-width="3" stroke-linecap="round" />
+    <path d="M 251,218 L 261,218 L 261,250 L 256,242 L 251,250 Z" fill="#b88c42" />
+
+    <!-- Delicate Page Lines -->
+    <g fill="none" stroke="#102547" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.34">
+      <path d="M 138,132 C 174,124 212,130 236,144" />
+      <path d="M 136,150 C 174,142 212,148 236,162" />
+      <path d="M 134,168 C 172,160 212,166 236,180" />
+      <path d="M 132,186 C 170,178 212,184 236,198" />
+
+      <path d="M 374,132 C 338,124 300,130 276,144" />
+      <path d="M 376,150 C 338,142 300,148 276,162" />
+      <path d="M 378,168 C 340,160 300,166 276,180" />
+      <path d="M 380,186 C 342,178 300,184 276,198" />
+    </g>
+  </g>
+
+  <!-- Heritage GBHS Crest Prefix -->
+  <text
+    x="256"
+    y="264"
+    text-anchor="middle"
+    fill="#b88c42"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="19"
+    font-weight="700"
+    letter-spacing="7.5"
+  >
+    GBHS
+  </text>
+
+  <!-- Calligraphic Handwritten 'Douala' (Connected Fountain-Pen Strokes) -->
+  <g transform="translate(0, 6)" fill="none" stroke="#0f2447" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Capital Cursive 'D' -->
+    <path
+      d="M 122,292 C 118,324 114,354 108,378"
+      stroke-width="11.5"
+    />
+    <path
+      d="M 100,298 C 124,284 156,288 164,316 C 171,340 156,372 128,378 C 105,384 93,372 103,360 C 117,348 144,354 170,348"
+      stroke-width="8.5"
+    />
+    <path
+      d="M 161,309 C 167,328 162,350 148,365"
+      stroke-width="10.5"
+    />
+
+    <!-- Connected lowercase 'o' -->
+    <path
+      d="M 170,348 C 177,332 193,328 200,338 C 206,348 199,362 185,362 C 173,362 170,344 182,333 C 192,326 202,334 214,341"
+      stroke-width="8"
+    />
+    <path d="M 177,340 C 173,350 175,358 182,361" stroke-width="10" />
+
+    <!-- Connected lowercase 'u' -->
+    <path
+      d="M 214,341 C 219,333 222,328 223,328 C 218,345 217,360 225,362 C 234,364 244,348 251,328 C 246,345 246,360 254,362 C 261,363 268,354 276,344"
+      stroke-width="8"
+    />
+    <path d="M 222,333 C 218,346 218,357 223,361" stroke-width="10" />
+    <path d="M 249,333 C 246,346 246,357 251,361" stroke-width="10" />
+
+    <!-- Connected lowercase 'a' -->
+    <path
+      d="M 276,344 C 284,331 298,327 303,335 C 293,327 278,334 276,349 C 274,361 286,364 296,353 C 302,346 305,335 307,331 C 302,348 302,360 311,362 C 318,363 326,352 335,335"
+      stroke-width="8"
+    />
+    <path d="M 281,338 C 276,348 277,358 282,361" stroke-width="9.5" />
+    <path d="M 306,336 C 303,348 303,357 308,361" stroke-width="10" />
+
+    <!-- Connected lowercase 'l' -->
+    <path
+      d="M 335,335 C 349,310 359,288 353,282 C 347,276 336,294 331,324 C 327,348 329,360 338,362 C 346,364 355,355 363,344"
+      stroke-width="8"
+    />
+    <path d="M 335,308 C 329,336 329,353 335,360" stroke-width="11" />
+
+    <!-- Connected lowercase 'a' -->
+    <path
+      d="M 363,344 C 371,331 385,327 390,335 C 380,327 365,334 363,349 C 361,361 373,364 383,353 C 389,346 392,335 394,331 C 389,348 389,360 398,362 C 406,363 414,356 422,346"
+      stroke-width="8"
+    />
+    <path d="M 368,338 C 363,348 364,358 369,361" stroke-width="9.5" />
+    <path d="M 393,336 C 390,348 390,357 395,361" stroke-width="10" />
+
+    <!-- Brass Fountain-Pen Underline Swash -->
+    <path
+      d="M 148,392 C 228,380 318,378 414,386"
+      stroke="#b88c42"
+      stroke-width="4.2"
+    />
+  </g>
+</svg>
